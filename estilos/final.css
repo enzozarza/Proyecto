@@ -7,7 +7,7 @@
 .header {
     background-color: rgb(10, 10, 10);
     padding: 1rem;
-    display: flex;
+    display: grid;
     flex-direction: row;
 justify-content: space-between;
 align-items: center;
@@ -18,16 +18,32 @@ align-items: center;
 height: 80px;
 }
 
+.header-secondary-container {
+    -webkit-text-size-adjust: 100%;
+--heightOtherBackground: 0;
+color: #333;
+font-style: normal;
+font-weight: 400;
+line-height: 1.42857143;
+font-size: 1.4rem;
+font-family: "Kanit";
+width: 163px;
+order: 2;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 4;
+margin: 0 0 0 30px;
+position: absolute;
+right: 80px;
+top: 30px;
+
+}
 .nav__barra{
     background-color: white;
 }
 
-.nav__lista {
-    list-style: none;
-    display: flex;
-   /* gap: 16px; %, rem*/
 
-}
 .nav__item{
     margin-left: 16px;
 
